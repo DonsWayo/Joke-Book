@@ -11,7 +11,7 @@ import SwiftUI
 struct Joke_BookApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomeScreen()
         }
     }
 }
