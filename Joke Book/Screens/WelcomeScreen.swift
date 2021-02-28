@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct WelcomeScreen: View {
+
+    @EnvironmentObject var store: Store
+
     var body: some View {
             VStack(alignment: .center) {
                 Spacer()
@@ -15,14 +18,12 @@ struct WelcomeScreen: View {
                 LottieView().frame(width: 500, height: 500, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/).padding(.all, -100)
                 Text("Jokes that make sense")
                 Spacer()
+                
                 Button(action: {
-                                    let generator = UINotificationFeedbackGenerator()
-                                    generator.notificationOccurred(.success)
-                                }) {
-                                    Text("Continue")
-                                        .customButton()
-                                }
-                                .padding(.horizontal)
+                    self.store.login()
+                    }) {
+                        Text("Continue").customButton()
+                    }.padding(.horizontal)
             }
                
         

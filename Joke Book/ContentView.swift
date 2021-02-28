@@ -8,14 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var store = Store()
+
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            if !store.isLoggedin {
+                    WelcomeScreen()
+                } else {
+                    MainTabbar()
+                }
+        }
+        .environmentObject(store)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}

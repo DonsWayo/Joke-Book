@@ -19,8 +19,17 @@
 		E83D3D6B25EA869400A7BCF5 /* book.json in Resources */ = {isa = PBXBuildFile; fileRef = E83D3D6A25EA869400A7BCF5 /* book.json */; };
 		E83D3D7025EA91CD00A7BCF5 /* WelcomeTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D3D6F25EA91CD00A7BCF5 /* WelcomeTitle.swift */; };
 		E83D3D7525EA939100A7BCF5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D3D7425EA939100A7BCF5 /* Extensions.swift */; };
-		E83D3D7B25EA944600A7BCF5 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D3D7A25EA944600A7BCF5 /* ButtonModifier.swift */; };
 		E83D3D8B25EA96BD00A7BCF5 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D3D8A25EA96BD00A7BCF5 /* AppSettings.swift */; };
+		E83D3D9625EAA02700A7BCF5 /* JokesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D3D9525EAA02700A7BCF5 /* JokesScreen.swift */; };
+		E83D3DA125EAA0B000A7BCF5 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D3DA025EAA0B000A7BCF5 /* Joke.swift */; };
+		E83D3DA625EAA10500A7BCF5 /* JokeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D3DA525EAA10500A7BCF5 /* JokeViewModel.swift */; };
+		E83D3DAC25EAA13900A7BCF5 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D3DAB25EAA13900A7BCF5 /* Api.swift */; };
+		E83D3DB125EAA16700A7BCF5 /* JokeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D3DB025EAA16700A7BCF5 /* JokeApi.swift */; };
+		E83D3DB625EAA7EA00A7BCF5 /* JokeDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D3DB525EAA7EA00A7BCF5 /* JokeDetailScreen.swift */; };
+		E866FDD325EC1A9100AFABA1 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E866FDD225EC1A9100AFABA1 /* ButtonModifier.swift */; };
+		E87FD0DE25EB8A8F00F9CDFB /* JokesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87FD0DD25EB8A8F00F9CDFB /* JokesList.swift */; };
+		E87FD0E425EB8DC700F9CDFB /* MainTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87FD0E325EB8DC700F9CDFB /* MainTabbar.swift */; };
+		E87FD0EC25EBB72700F9CDFB /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87FD0EB25EBB72700F9CDFB /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +67,17 @@
 		E83D3D6A25EA869400A7BCF5 /* book.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = book.json; sourceTree = "<group>"; };
 		E83D3D6F25EA91CD00A7BCF5 /* WelcomeTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeTitle.swift; sourceTree = "<group>"; };
 		E83D3D7425EA939100A7BCF5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		E83D3D7A25EA944600A7BCF5 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
 		E83D3D8A25EA96BD00A7BCF5 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		E83D3D9525EAA02700A7BCF5 /* JokesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesScreen.swift; sourceTree = "<group>"; };
+		E83D3DA025EAA0B000A7BCF5 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		E83D3DA525EAA10500A7BCF5 /* JokeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewModel.swift; sourceTree = "<group>"; };
+		E83D3DAB25EAA13900A7BCF5 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		E83D3DB025EAA16700A7BCF5 /* JokeApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeApi.swift; sourceTree = "<group>"; };
+		E83D3DB525EAA7EA00A7BCF5 /* JokeDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeDetailScreen.swift; sourceTree = "<group>"; };
+		E866FDD225EC1A9100AFABA1 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
+		E87FD0DD25EB8A8F00F9CDFB /* JokesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesList.swift; sourceTree = "<group>"; };
+		E87FD0E325EB8DC700F9CDFB /* MainTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbar.swift; sourceTree = "<group>"; };
+		E87FD0EB25EBB72700F9CDFB /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +129,9 @@
 		E83D3D1725EA824700A7BCF5 /* Joke Book */ = {
 			isa = PBXGroup;
 			children = (
-				E83D3D7925EA943600A7BCF5 /* Helpers */,
+				E87FD0E225EB8DAE00F9CDFB /* Navigation */,
+				E83D3DAA25EAA12900A7BCF5 /* Services */,
+				E83D3D9A25EAA07B00A7BCF5 /* Models */,
 				E83D3D6925EA868300A7BCF5 /* Lottie */,
 				E83D3D5A25EA83CB00A7BCF5 /* Screens */,
 				E83D3D4C25EA82E100A7BCF5 /* components */,
@@ -122,6 +142,7 @@
 				E83D3D1E25EA824900A7BCF5 /* Preview Content */,
 				E83D3D7425EA939100A7BCF5 /* Extensions.swift */,
 				E83D3D8A25EA96BD00A7BCF5 /* AppSettings.swift */,
+				E87FD0EB25EBB72700F9CDFB /* Store.swift */,
 			);
 			path = "Joke Book";
 			sourceTree = "<group>";
@@ -157,6 +178,8 @@
 			children = (
 				E83D3D4D25EA82F600A7BCF5 /* LottieView.swift */,
 				E83D3D6F25EA91CD00A7BCF5 /* WelcomeTitle.swift */,
+				E87FD0DD25EB8A8F00F9CDFB /* JokesList.swift */,
+				E866FDD225EC1A9100AFABA1 /* ButtonModifier.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -165,6 +188,8 @@
 			isa = PBXGroup;
 			children = (
 				E83D3D5B25EA83DF00A7BCF5 /* WelcomeScreen.swift */,
+				E83D3D9525EAA02700A7BCF5 /* JokesScreen.swift */,
+				E83D3DB525EAA7EA00A7BCF5 /* JokeDetailScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -177,12 +202,30 @@
 			path = Lottie;
 			sourceTree = "<group>";
 		};
-		E83D3D7925EA943600A7BCF5 /* Helpers */ = {
+		E83D3D9A25EAA07B00A7BCF5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E83D3D7A25EA944600A7BCF5 /* ButtonModifier.swift */,
+				E83D3DA025EAA0B000A7BCF5 /* Joke.swift */,
+				E83D3DA525EAA10500A7BCF5 /* JokeViewModel.swift */,
 			);
-			path = Helpers;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E83D3DAA25EAA12900A7BCF5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E83D3DAB25EAA13900A7BCF5 /* Api.swift */,
+				E83D3DB025EAA16700A7BCF5 /* JokeApi.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E87FD0E225EB8DAE00F9CDFB /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E87FD0E325EB8DC700F9CDFB /* MainTabbar.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,12 +364,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E83D3DA125EAA0B000A7BCF5 /* Joke.swift in Sources */,
 				E83D3D1B25EA824700A7BCF5 /* ContentView.swift in Sources */,
-				E83D3D7B25EA944600A7BCF5 /* ButtonModifier.swift in Sources */,
+				E87FD0DE25EB8A8F00F9CDFB /* JokesList.swift in Sources */,
+				E87FD0EC25EBB72700F9CDFB /* Store.swift in Sources */,
+				E83D3D9625EAA02700A7BCF5 /* JokesScreen.swift in Sources */,
+				E83D3DB625EAA7EA00A7BCF5 /* JokeDetailScreen.swift in Sources */,
+				E87FD0E425EB8DC700F9CDFB /* MainTabbar.swift in Sources */,
 				E83D3D7525EA939100A7BCF5 /* Extensions.swift in Sources */,
+				E83D3DAC25EAA13900A7BCF5 /* Api.swift in Sources */,
 				E83D3D7025EA91CD00A7BCF5 /* WelcomeTitle.swift in Sources */,
+				E83D3DA625EAA10500A7BCF5 /* JokeViewModel.swift in Sources */,
+				E83D3DB125EAA16700A7BCF5 /* JokeApi.swift in Sources */,
 				E83D3D1925EA824700A7BCF5 /* Joke_BookApp.swift in Sources */,
 				E83D3D5C25EA83DF00A7BCF5 /* WelcomeScreen.swift in Sources */,
+				E866FDD325EC1A9100AFABA1 /* ButtonModifier.swift in Sources */,
 				E83D3D8B25EA96BD00A7BCF5 /* AppSettings.swift in Sources */,
 				E83D3D4E25EA82F600A7BCF5 /* LottieView.swift in Sources */,
 			);
@@ -489,6 +541,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Joke Book/Preview Content\"";
+				DEVELOPMENT_TEAM = Z23RXW5X34;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Joke Book/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -510,6 +563,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Joke Book/Preview Content\"";
+				DEVELOPMENT_TEAM = Z23RXW5X34;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Joke Book/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
